@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find My PG</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+</head>
+
+<body>
+
+  <!-- LOGIN AND REGISTRATION FORM -->
+  <div class="wrapper">
+  <!-- LOGIN -->
+  <div class="login-content" id="loginForm">
+    <span class="close-btn material-symbols-rounded">close</span>
+    <h2 class="content-h2">Login</h2>
+    <form action="#">
+      <div class="input-field">
+        <input type="text" required>
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+      <a href="#" class="forgot-pass">Forgot Password?</a>
+      <button type="submit">Log In</button>
+    </form>
+    <div class="bottom-link">
+      Don't have an account?
+      <a href="#" class="sign-up">Sign Up</a>
+    </div>
+  </div>
+  <!-- REGISTRATION -->
+  <div class="reg-content" id="regForm">
+    <span class="close-btn material-symbols-rounded">close</span>
+    <h2 class="content-h2">Create an Account</h2>
+    <form action="#">
+      <div class="input-field">
+        <input type="text" required>
+        <label>Name</label>
+      </div>
+      <div class="input-field">
+        <input type="number" required>
+        <label>Phone No.</label>
+      </div>
+      <div class="input-field">
+        <input type="text" required>
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" minlength="8" maxlength="16" required>
+        <label>Create Password</label>
+      </div>
+      <button type="submit">Sign Up</button>
+      <div class="bottom-link">
+        Already have an account?
+        <a href="#" class="log-in">Log In</a>
+      </div>
+    </form>
+  </div>
+  </div>
+
+
+  <!-- MAIN PAGE -->
+
+  <div class="header">
+    <h3 class="h3-1">Find My PG</h3>
+    <div class="userlinks">
+      <button class="link" id="loginBtn">Login</button>
+      <button class="link" id="regBtn">Register</button>
+    </div>
+  </div>
+  <div class="main">
+    <p class="p1">Find a home away from <b class="b1">home</b></p>
+    <div class="search-bar">
+      <button class="search-button">
+        <img src="/images/search.png">
+        Search
+      </button>
+    </div>
+    <a href="#" class="host-link">
+      <div class="host">
+        Want to host a PG?
+      </div>
+    </a>
+  </div>
+  <section class="container">
+    <h2 class="explore">Explore PGs and Hostels</h2>
+    <div class="btn-grp">
+      <button class="pre-btn"><</button>
+      <button class="nxt-btn">></button>
+    </div>
+    <div class="scroller">
+      <div class="card1">
+        <img src="/images/student-friendly.jpg" class="card-img">
+        <h3 class="card-h3">Student Friendly PGs</h3>
+      </div>
+      <div class="card2">
+        <img src="/images/boys-pg.jpg" class="card-img">
+        <h3 class="card-h3">PG for Boys</h3>
+      </div>
+      <div class="card3">
+        <img src="/images/girls-pg.jpg" class="card-img">
+        <h3 class="card-h3">PG for Girls</h3>
+      </div>
+      <div class="card4">
+        <img src="/images/boys-hostel.jpg" class="card-img">
+        <h3 class="card-h3">Hostel for Boys</h3>
+      </div>
+      <div class="card5">
+        <img src="/images/girls-hostel.jpg" class="card-img">
+        <h3 class="card-h3">Hostel for Girls</h3>
+      </div>
+    </div>
+  </section>
+  <div class="gradient"></div>
+  <div class="points">
+    <div class="points-div">
+      <img src="/images/verifiedtick.png" class="points-img"><br>
+      Verfied by our experts
+    </div>
+    <div class="points-div">
+      <img src="/images/userbase.png" class="points-img"><br>
+      Genuine and Vast userbase
+    </div>
+    <div class="points-div">
+      <img src="/images/property.png" class="points-img"><br>
+      Every property detail on just a click
+    </div>
+  </div>
+  <hr class="hr1">
+  <div class="download">
+    <h3 class="dl-h3">Download our App</h3>
+    <div class="apps">
+      <img src="/images/playstore.png">
+      <img src="/images/appstore.png">
+    </div>
+  </div>
+  <hr class="hr1">
+  <div class="socials">
+    <h3 class="socials-h3">Follow our Socials</h3><br>
+    <div class="s-apps">
+      <img src="/images/yt.png">
+      <img src="/images/insta.png">
+      <img src="/images/x.png">
+      <img src="/images/fb.png">
+    </div>
+  </div>
+  <hr class="hr1">
+  <div class="end">
+    <a class="end-link" href="#">Terms & Conditions</a>
+    <a class="end-link" href="#">Help Center</a>
+    <a class="end-link" href="#">Feedback</a>
+    <a class="end-link" href="#">Privacy Policy</a>
+    <a class="end-link" href="#">Careers</a>
+    <a class="end-link" href="#">Blogs</a>
+    <a class="end-link" href="#">Sales Enquiry</a>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>

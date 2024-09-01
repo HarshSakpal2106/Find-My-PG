@@ -412,8 +412,7 @@ body {
 
 .login-content, .reg-content {
   display: none;
-  background: linear-gradient(to bottom left, #FFFFFF ,#858585);
-  border: 2px solid black;
+  background-color: white;
   width: 500px;
   height: 550px;
   border-radius: 50px;
